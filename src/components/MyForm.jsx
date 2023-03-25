@@ -42,7 +42,7 @@ function MyForm() {
 <form onSubmit={handleSubmit}>
   <label>
     Email address
-    <input type="text" name="email" placeholder="Enter email" value={email} onChange={handleEmailChange} required />
+    <input type="email" name="email" placeholder="Enter email" value={email} onChange={handleEmailChange} required />
     <br/>
     Name
     <input type="text" name="name" placeholder="Enter Name" value={name} onChange={handleNameChange} required/>
