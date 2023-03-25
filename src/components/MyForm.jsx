@@ -46,10 +46,10 @@ function MyForm() {
         <input type="email" name="email" placeholder="Enter email" value={email} onChange={handleEmailChange} required />
         <br/>
         Name
-        <input type="text" pattern="[A-Za-z]{3}" name="name" placeholder="Enter Name" value={name} onChange={handleNameChange} required/>
+        <input type="text" pattern="[A-Za-z]{1,}" name="name" placeholder="Enter Name" value={name} onChange={handleNameChange} required/>
         <br/>
         Lastname
-        <input type="text" pattern="[A-Za-z]{3}" name="lastname" placeholder="Enter Lastname" value={lastname} onChange={handleLastnameChange} required/>
+        <input type="text" pattern="[A-Za-z]{1,}" name="lastname" placeholder="Enter Lastname" value={lastname} onChange={handleLastnameChange} required/>
         <br/>
         Phone Number
         <input type="tel" pattern="^\d{10}$" name="phonenumber" placeholder="Enter Phone Number" value={phonenumber} onChange={handlePhonenumberChange}required/>
