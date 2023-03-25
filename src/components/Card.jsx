@@ -5,9 +5,9 @@ function Card(user) {
     const { name, job, hobby }= user;
     return (
         <div className="card_container">
-            <p className="card_body">Name: {name}</p>
-            <p className="card_body">Job: {job}</p>
-            <p className="card_body">Hobby: {hobby}</p>
+            <p className="card_b">Name: {name}</p>
+            <p className="card_b">Job: {job}</p>
+            <p className="card_b">Hobby: {hobby}</p>
         </div>
     )
 }
